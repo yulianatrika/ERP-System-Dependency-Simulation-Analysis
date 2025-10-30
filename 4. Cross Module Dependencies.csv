@@ -1,0 +1,87 @@
+"Module Name","Table Name","Cross Module Dependencies Names","Cross Module Dependencies Count"
+"Module A - Core HR","Employee Absence","Module C - Time & Attendance, Module A - Core HR",2
+"Module B - Payroll","Bonuses","Module A - Core HR",1
+"Module B - Payroll","Deductions","Module A - Core HR",1
+"Module B - Payroll","Payslips","Module A - Core HR, Module B - Payroll",2
+"Module C - Time & Attendance","Leave Requests","Module A - Core HR",1
+"Module C - Time & Attendance","Time Logs","Module A - Core HR",1
+"Module C2 - Sales Pipeline","Opportunities","Module C1 - Customer Data",1
+"Module C2 - Sales Pipeline","Sales Activities","Module C1 - Customer Data, Module A - Core HR",2
+"Module C2 - Sales Pipeline","Quotes","Module C1 - Customer Data, Module I1 - Inventory Master",2
+"Module C3 - Customer Service","SLAs","Module S1 - Customer Management",1
+"Module C3 - Customer Service","Service Tickets","Module C1 - Customer Data",1
+"Module C3 - Customer Service","Customer Feedback","Module C3 - Customer Service",1
+"Module C4 - Marketing","Marketing ROI","Module C4 - Marketing, Module C2 - Sales Pipeline",2
+"Module C5 - Analytics","Customer Lifetime Value","Module C1 - Customer Data, Module S4 - Analytics",2
+"Module C5 - Analytics","Churn Analysis","Module C1 - Customer Data, Module C3 - Customer Service",2
+"Module C5 - Analytics","Sales Performance","Module C2 - Sales Pipeline, Module A - Core HR",2
+"Module D - Recruitment","Job Postings","Module A - Core HR",1
+"Module F - Training","Enrollments","Module A - Core HR",1
+"Module F2 - Accounts Payable","Vendor Invoices","Module P1 - Vendor Management, Module P2 - Procurement",2
+"Module F3 - Accounts Receivable","Customer Invoices","Module S1 - Customer Management, Module S2 - Order Processing",2
+"Module F4 - Fixed Assets","Disposals","Module M1 - Asset Master",1
+"Module F4 - Fixed Assets","Asset Register","Module M1 - Asset Master",1
+"Module F5 - Financial Reporting","Balance Sheet","Module F1 - General Ledger",1
+"Module F5 - Financial Reporting","Income Statement","Module F1 - General Ledger",1
+"Module F5 - Financial Reporting","Budget vs Actual","Module F1 - General Ledger",1
+"Module F5 - Financial Reporting","Cash Flow","Module F1 - General Ledger, Module F2 - Accounts Payable, Module F3 - Accounts Receivable",3
+"Module I2 - Inventory Control","Cycle Counts","Module I1 - Inventory Master",1
+"Module I2 - Inventory Control","Reorder Points","Module I1 - Inventory Master",1
+"Module I2 - Inventory Control","Stock Movements","Module I1 - Inventory Master",1
+"Module I2 - Inventory Control","Inventory Adjustments","Module I1 - Inventory Master",1
+"Module I3 - Lot/Serial Tracking","Expiration Dates","Module I3 - Lot/Serial Tracking",1
+"Module I3 - Lot/Serial Tracking","Lot Numbers","Module I1 - Inventory Master",1
+"Module I3 - Lot/Serial Tracking","Serial Numbers","Module I1 - Inventory Master",1
+"Module I4 - Inventory Valuation","Inventory Valuation","Module I1 - Inventory Master",1
+"Module I4 - Inventory Valuation","Item Costs","Module I1 - Inventory Master",1
+"Module I5 - Inventory Analytics","Stock Aging","Module I1 - Inventory Master",1
+"Module I5 - Inventory Analytics","Inventory Turnover","Module I1 - Inventory Master",1
+"Module I5 - Inventory Analytics","Inventory Forecasts","Module I1 - Inventory Master, Module P2 - Procurement",2
+"Module J1 - Project Setup","Projects","Module A - Core HR",1
+"Module J2 - Planning","Tasks","Module J1 - Project Setup",1
+"Module J2 - Planning","Milestones","Module J1 - Project Setup",1
+"Module J2 - Planning","Project Budgets","Module J1 - Project Setup",1
+"Module J2 - Planning","Resource Allocation","Module J1 - Project Setup, Module A - Core HR",2
+"Module J3 - Execution","Change Requests","Module J1 - Project Setup",1
+"Module J3 - Execution","Deliverables","Module J1 - Project Setup",1
+"Module J3 - Execution","Issues","Module J1 - Project Setup",1
+"Module J3 - Execution","Expenses","Module J1 - Project Setup, Module P1 - Vendor Management",2
+"Module J3 - Execution","Time Tracking","Module J1 - Project Setup, Module A - Core HR",2
+"Module J4 - Monitoring","Risk Register","Module J1 - Project Setup",1
+"Module J4 - Monitoring","Progress Reports","Module J1 - Project Setup, Module J3 - Execution",2
+"Module J4 - Monitoring","Budget Variance","Module J2 - Planning, Module J3 - Execution",2
+"Module J5 - Analytics","Project KPIs","Module J4 - Monitoring",1
+"Module J5 - Analytics","Lessons Learned","Module J1 - Project Setup, Module J3 - Execution",2
+"Module J5 - Analytics","Portfolio Dashboard","Module J1 - Project Setup, Module J4 - Monitoring",2
+"Module M1 - Asset Master","Assets","Module A - Core HR",1
+"Module M1 - Product Definition","Work Centers","Module A - Core HR",1
+"Module M1 - Product Definition","Routing","Module M1 - Product Definition",1
+"Module M1 - Product Definition","BOM","Module M1 - Product Definition, Module I1 - Inventory Master",2
+"Module M2 - Lifecycle","Depreciation","Module M1 - Asset Master",1
+"Module M2 - Lifecycle","Acquisitions","Module M1 - Asset Master, Module P1 - Vendor Management",2
+"Module M2 - Lifecycle","Transfers","Module M1 - Asset Master, Module A - Core HR",2
+"Module M2 - Planning","Production Orders","Module M1 - Product Definition",1
+"Module M2 - Planning","Material Requirements","Module M1 - Product Definition, Module M2 - Planning",2
+"Module M2 - Planning","Capacity Plans","Module M1 - Product Definition, Module M2 - Planning",2
+"Module M3 - Execution","Quality Checks","Module M3 - Execution",1
+"Module M3 - Execution","Work Orders","Module M1 - Asset Master",1
+"Module M3 - Execution","Material Issues","Module M3 - Execution, Module I1 - Inventory Master",2
+"Module M3 - Execution","Production Logs","Module M3 - Execution, Module A - Core HR",2
+"Module M3 - Execution","Work Orders","Module M1 - Product Definition, Module M2 - Planning",2
+"Module M3 - Maintenance","Maintenance Schedules","Module M1 - Asset Master",1
+"Module M4 - Costing","Variance Analysis","Module M4 - Costing",1
+"Module M4 - Costing","Standard Costs","Module M1 - Product Definition",1
+"Module M4 - Costing","Actual Costs","Module M3 - Execution, Module M4 - Costing",2
+"Module M4 - Tracking","Audits","Module M1 - Asset Master",1
+"Module M4 - Tracking","Checkouts","Module M1 - Asset Master, Module A - Core HR",2
+"Module M4 - Tracking","Assignments","Module M1 - Asset Master, Module A - Core HR",2
+"Module M5 - Analytics","Maintenance History","Module M1 - Product Definition, Module M3 - Execution",2
+"Module M5 - Analytics","Production Yield","Module M3 - Execution, Module M5 - Analytics",2
+"Module M5 - Analytics","Asset Valuation","Module M1 - Asset Master, Module M2 - Lifecycle",2
+"Module M5 - Analytics","OEE (Overall Equipment Effectiveness)","Module M3 - Execution, Module M1 - Product Definition",2
+"Module M5 - Analytics","Utilization Reports","Module M1 - Asset Master, Module M4 - Tracking",2
+"Module M5 - Analytics","Replacement Forecasts","Module M1 - Asset Master, Module M2 - Lifecycle, Module M3 - Maintenance",3
+"Module P2 - Procurement","Purchase Orders","Module A - Core HR",1
+"Module P4 - Analytics","Procurement Reports","Module P1 - Vendor Management, Module P3 - Inventory",2
+"Module S2 - Order Processing","Sales Orders","Module A - Core HR",1
+"Module S4 - Analytics","Sales Forecasts","Module P3 - Inventory",1
